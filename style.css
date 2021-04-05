@@ -1,5 +1,6 @@
 /* custom fonts area */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
 
 /* custom font finish */
 *{
@@ -65,4 +66,53 @@ header .hero .text{
 }
 header .hero .bottom_speace{
     height: 90px;
+}
+/* header area design finish here */
+/* creative area design start from here */
+.creative{
+    border-bottom: 1px solid red;
+}
+.creative .speacing{
+    height: 60px;
+}
+.creative .row #text{
+    margin-left: -70px;
+}
+.creative .row img{
+    width: 100%;
+}
+.creative .row .text h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight:700;
+    font-size: 55px;
+}
+.creative .row .text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+.creative .row .text a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: black;
+}
+/* section finish here */
+/* service section start from here */
+.service .icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #f7effb;
+}
+.service .icon a{
+    font-size: 25px;
+    padding-top: 3px;
+    display: block;
+    color:#913bbe;
+}
+.service .text h3{
+    font-family: 'Poppins', sans-serif;
+}
+.service .text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
 }
